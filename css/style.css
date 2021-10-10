@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.content p{
+	color: green;
+}
+.content {
+	color: red;
+}
+
+
+.content__1 p{
+	color: greenyellow;
+}
+
+.content__2 p{
+	color: grey;
+}
+
+
+
+p{
+	color: blue;
+}
+
+p{
+	color: goldenrod;
+}
+
+.content__1 + *{
+	color: indigo;
+}
+
+.content__1 ~ h2 {
+	color: lightcoral;
+} 
+
+/* Шпора для себя */
+/* 1).content p 2)<style> в html(если нет обнуления) 3)p - везде принцип последовательности */
